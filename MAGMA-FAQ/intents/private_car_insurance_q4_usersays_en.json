@@ -1,0 +1,37 @@
+[
+  {
+    "id": "e91dc172-af54-46c0-8b59-ee2d4c54dfe5",
+    "data": [
+      {
+        "text": "why to insure vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ad7e73b9-632d-4615-8bc0-6b2a393ee4df",
+    "data": [
+      {
+        "text": "need to insure my vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1515136010
+  },
+  {
+    "id": "694ea6ea-7e29-4bd6-8651-a9787c2c9d23",
+    "data": [
+      {
+        "text": "Why do I need to insure my vehicle?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1515136010
+  }
+]

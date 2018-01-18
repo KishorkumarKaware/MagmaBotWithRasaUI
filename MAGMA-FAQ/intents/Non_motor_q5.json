@@ -1,0 +1,28 @@
+{
+  "id": "aa1f5a6e-d456-46c0-bdf7-16c69e7b9af5",
+  "name": "Non_motor_q5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please refer this link for Required documents :\n\n\u003ca href\u003d\"http://a5f13242.ngrok.io/Chat/Claim.html\"\u003eClick here \u003c/a\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876320,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "c4d643b6-8d75-44e7-8bca-886cbb355823",
+    "data": [
+      {
+        "text": "Is insurance mandatory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "739a17ad-4d92-499f-9be5-d6f1b778c043",
+    "data": [
+      {
+        "text": "Is it mandatory to have insurance for plying vehicles on the public place?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514869440
+  }
+]

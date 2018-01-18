@@ -1,0 +1,56 @@
+[
+  {
+    "id": "b6e23f07-d165-469e-ad58-1fc0744f4ec9",
+    "data": [
+      {
+        "text": "any third party inured",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "db11ab4f-c2c5-42f2-8e07-f966ef5752e8",
+    "data": [
+      {
+        "text": "If ",
+        "userDefined": false
+      },
+      {
+        "text": "third",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " party injured in accident",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "395d6120-f754-4738-9961-9612c07c50d6",
+    "data": [
+      {
+        "text": "Is third party liability covered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c1d7bfe3-238c-4ccb-ac7f-2c5eb6048b91",
+    "data": [
+      {
+        "text": "What should we do when there is an accident and some third party injured?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514876106
+  }
+]

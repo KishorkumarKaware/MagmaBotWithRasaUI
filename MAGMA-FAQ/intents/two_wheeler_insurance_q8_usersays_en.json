@@ -1,0 +1,36 @@
+[
+  {
+    "id": "084943fe-f1e8-4d29-9ea7-85bb0a935e7d",
+    "data": [
+      {
+        "text": "replace vehicle for existing policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c0d858e4-6c1b-480c-a7d5-a3e9f9e84538",
+    "data": [
+      {
+        "text": "replace a new vehicle in my existing policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "39e108a3-3212-467a-8787-3ed0cbc5612b",
+    "data": [
+      {
+        "text": "Can I replace a new vehicle in my existing policy?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514873132
+  }
+]

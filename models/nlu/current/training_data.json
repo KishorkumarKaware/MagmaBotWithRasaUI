@@ -1,0 +1,705 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hii"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "general_insurance_q10",
+        "entities": [],
+        "text": "What is Reinsurance?"
+      },
+      {
+        "intent": "general_Insurance_q1",
+        "entities": [],
+        "text": "insurance policy"
+      },
+      {
+        "intent": "general_Insurance_q1",
+        "entities": [],
+        "text": "Why do I need Insurance?"
+      },
+      {
+        "intent": "general_insurance_q2",
+        "entities": [],
+        "text": "What does General Insurance do for me?"
+      },
+      {
+        "intent": "general_insurance_q3",
+        "entities": [],
+        "text": "need of insurance"
+      },
+      {
+        "intent": "general_insurance_q3",
+        "entities": [],
+        "text": "how much insurance is important"
+      },
+      {
+        "intent": "general_insurance_q3",
+        "entities": [],
+        "text": "How much Insurance do I need?"
+      },
+      {
+        "intent": "general_insurance_q4",
+        "entities": [],
+        "text": "What all can I get covered under insurance?"
+      },
+      {
+        "intent": "general_insurance_q5",
+        "entities": [],
+        "text": "Why should one cover oneself immediately?"
+      },
+      {
+        "intent": "general_insurance_q6",
+        "entities": [],
+        "text": "What is Premium?"
+      },
+      {
+        "intent": "general_insurance_q7",
+        "entities": [],
+        "text": "Why should I fill up proposal form for buying Insurance?"
+      },
+      {
+        "intent": "general_insurance_q8",
+        "entities": [],
+        "text": "What is Underwriting?"
+      },
+      {
+        "intent": "general_insurance_q9",
+        "entities": [],
+        "text": "What is deductible?"
+      },
+      {
+        "intent": "General_Insurance",
+        "entities": [],
+        "text": "General Insurance"
+      },
+      {
+        "intent": "Human",
+        "entities": [],
+        "text": "human"
+      },
+      {
+        "intent": "Human",
+        "entities": [],
+        "text": "Are you a human"
+      },
+      {
+        "intent": "Motor_Cycle_Insurance",
+        "entities": [],
+        "text": "Motor Cycle Insurance"
+      },
+      {
+        "intent": "motor_cycle_q10",
+        "entities": [],
+        "text": "Solatium Fund Scheme"
+      },
+      {
+        "intent": "motor_cycle_q10",
+        "entities": [],
+        "text": "Solatium Fund"
+      },
+      {
+        "intent": "motor_cycle_q10",
+        "entities": [],
+        "text": "What is Solatium Fund Scheme?"
+      },
+      {
+        "intent": "motor_cycle_q4",
+        "entities": [],
+        "text": "Motor Package Policy Cover"
+      },
+      {
+        "intent": "motor_cycle_q4",
+        "entities": [],
+        "text": "What does Motor Package Policy Cover?"
+      },
+      {
+        "intent": "motor_cycle_q5",
+        "entities": [],
+        "text": "exclusions"
+      },
+      {
+        "intent": "motor_cycle_q5",
+        "entities": [],
+        "text": "exclusion"
+      },
+      {
+        "intent": "motor_cycle_q5",
+        "entities": [],
+        "text": "What are the exclusions under Package Policy?"
+      },
+      {
+        "intent": "motor_cycle_q6",
+        "entities": [],
+        "text": "documents required for motor cycle insurance"
+      },
+      {
+        "intent": "motor_cycle_q6",
+        "entities": [],
+        "text": "documents needed for motor insurance"
+      },
+      {
+        "intent": "motor_cycle_q6",
+        "entities": [],
+        "text": "Which documents i need for insurance"
+      },
+      {
+        "intent": "motor_cycle_q6",
+        "entities": [],
+        "text": "What are documents required at the time of claim"
+      },
+      {
+        "intent": "motor_cycle_q7",
+        "entities": [],
+        "text": "Pay amount to repairer"
+      },
+      {
+        "intent": "motor_cycle_q7",
+        "entities": [],
+        "text": "Can the amount be paid directly to the repairer?"
+      },
+      {
+        "intent": "motor_cycle_q8",
+        "entities": [],
+        "text": "What is the amount I have to bear?"
+      },
+      {
+        "intent": "motor_cycle_q9",
+        "entities": [],
+        "text": "is ncb available"
+      },
+      {
+        "intent": "motor_cycle_q9",
+        "entities": [],
+        "text": "NCB"
+      },
+      {
+        "intent": "motor_cycle_q9",
+        "entities": [],
+        "text": "What is \"No Claim Bonus\"?"
+      },
+      {
+        "intent": "motor_insurance_q2",
+        "entities": [],
+        "text": "Is insurance mandatory"
+      },
+      {
+        "intent": "motor_insurance_q2",
+        "entities": [],
+        "text": "Is it mandatory to have insurance for plying vehicles on the public place?"
+      },
+      {
+        "intent": "motor_insurance_q3",
+        "entities": [],
+        "text": "liability only policy"
+      },
+      {
+        "intent": "motor_insurance_q3",
+        "entities": [],
+        "text": "What is covered under Liability Only Policy?"
+      },
+      {
+        "intent": "motor_Insurance_types_Of_policies",
+        "entities": [
+          {
+            "entity": "insurance",
+            "value": "two wheeler",
+            "start": 25,
+            "end": 36
+          }
+        ],
+        "text": "What are the options for two wheeler insurance"
+      },
+      {
+        "intent": "motor_Insurance_types_Of_policies",
+        "entities": [],
+        "text": "types of motor insurance policies."
+      },
+      {
+        "intent": "motor_Insurance_types_Of_policies",
+        "entities": [],
+        "text": "policies available for covering the vehicles?"
+      },
+      {
+        "intent": "Non_Motor_Insurance",
+        "entities": [],
+        "text": "Non Motor Insurance"
+      },
+      {
+        "intent": "Non_motor_q10",
+        "entities": [],
+        "text": "how much time will take for payment"
+      },
+      {
+        "intent": "Non_motor_q10",
+        "entities": [],
+        "text": "Expected Payment Time"
+      },
+      {
+        "intent": "Non_motor_q10",
+        "entities": [],
+        "text": "How much time to make the payment?"
+      },
+      {
+        "intent": "Non_motor_q1",
+        "entities": [],
+        "text": "property damage"
+      },
+      {
+        "intent": "Non_motor_q1",
+        "entities": [],
+        "text": "Can you explain property damage"
+      },
+      {
+        "intent": "Non_motor_q1",
+        "entities": [],
+        "text": "What should we do when there is an accident/loss due to fire/flood/inundation to our property?"
+      },
+      {
+        "intent": "Non_motor_q2",
+        "entities": [],
+        "text": "any third party inured"
+      },
+      {
+        "intent": "Non_motor_q2",
+        "entities": [
+          {
+            "entity": "@sys.ignore",
+            "value": "third",
+            "start": 3,
+            "end": 8
+          }
+        ],
+        "text": "If third party injured in accident"
+      },
+      {
+        "intent": "Non_motor_q2",
+        "entities": [],
+        "text": "Is third party liability covered"
+      },
+      {
+        "intent": "Non_motor_q2",
+        "entities": [],
+        "text": "What should we do when there is an accident and some third party injured?"
+      },
+      {
+        "intent": "Non_motor_q3",
+        "entities": [],
+        "text": "Burglary Process"
+      },
+      {
+        "intent": "Non_motor_q3",
+        "entities": [],
+        "text": "What is the process to be followed in case of burglary?"
+      },
+      {
+        "intent": "Non_motor_q4",
+        "entities": [],
+        "text": "Intimate a claim to MHDI"
+      },
+      {
+        "intent": "Non_motor_q4",
+        "entities": [],
+        "text": "How can I intimate a claim to MHDI?"
+      },
+      {
+        "intent": "Non_motor_q5",
+        "entities": [],
+        "text": "Required Documents for NOn-Motor Insurance"
+      },
+      {
+        "intent": "Non_motor_q5",
+        "entities": [],
+        "text": "documents needed for non motor insurance"
+      },
+      {
+        "intent": "Non_motor_q5",
+        "entities": [
+          {
+            "entity": "@sys.ignore",
+            "value": "non motor",
+            "start": 23,
+            "end": 32
+          }
+        ],
+        "text": "documents required for non motor insurance"
+      },
+      {
+        "intent": "Non_motor_q5",
+        "entities": [],
+        "text": "What are the documents needed to be submitted for a claim?"
+      },
+      {
+        "intent": "Non_motor_q6",
+        "entities": [],
+        "text": "document submission"
+      },
+      {
+        "intent": "Non_motor_q6",
+        "entities": [],
+        "text": "When and whom the document to be submitted?"
+      },
+      {
+        "intent": "Non_motor_q7",
+        "entities": [],
+        "text": "attend the survey"
+      },
+      {
+        "intent": "Non_motor_q7",
+        "entities": [],
+        "text": "Whether we need to be present during the survey?"
+      },
+      {
+        "intent": "Non_motor_q8",
+        "entities": [],
+        "text": "Surveyor Expected Time"
+      },
+      {
+        "intent": "Non_motor_q8",
+        "entities": [],
+        "text": "Surveyor's Expected Time"
+      },
+      {
+        "intent": "Non_motor_q8",
+        "entities": [],
+        "text": "When can we expect the surveyor?"
+      },
+      {
+        "intent": "Non_motor_q9",
+        "entities": [],
+        "text": "Assessment"
+      },
+      {
+        "intent": "Non_motor_q9",
+        "entities": [],
+        "text": "When can we hear from Insurance Company about our assessment?"
+      },
+      {
+        "intent": "private_car_insurance_q1",
+        "entities": [],
+        "text": "NCB Transfer"
+      },
+      {
+        "intent": "private_car_insurance_q1",
+        "entities": [],
+        "text": "Transfer NCB"
+      },
+      {
+        "intent": "private_car_insurance_q1",
+        "entities": [],
+        "text": "Is my No Claim Bonus transferable to another-insurer?"
+      },
+      {
+        "intent": "private_car_insurance_q2",
+        "entities": [],
+        "text": "premium payable for my vehicle"
+      },
+      {
+        "intent": "private_car_insurance_q2",
+        "entities": [],
+        "text": "How do I know the premium payable for my vehicle?"
+      },
+      {
+        "intent": "private_car_insurance_q3",
+        "entities": [
+          {
+            "entity": "@sys.ignore",
+            "value": "kit",
+            "start": 8,
+            "end": 11
+          }
+        ],
+        "text": "CNG/LPG kit"
+      },
+      {
+        "intent": "private_car_insurance_q3",
+        "entities": [],
+        "text": "CNG/LPG kit installation"
+      },
+      {
+        "intent": "private_car_insurance_q3",
+        "entities": [],
+        "text": "What if my vehicle has CNG/LPG kit installed?"
+      },
+      {
+        "intent": "private_car_insurance_q4",
+        "entities": [],
+        "text": "why to insure vehicle"
+      },
+      {
+        "intent": "private_car_insurance_q4",
+        "entities": [],
+        "text": "need to insure my vehicle"
+      },
+      {
+        "intent": "private_car_insurance_q4",
+        "entities": [],
+        "text": "Why do I need to insure my vehicle?"
+      },
+      {
+        "intent": "Private_Car_Insurance",
+        "entities": [
+          {
+            "entity": "@sys.ignore",
+            "value": "Private Car",
+            "start": 0,
+            "end": 11
+          }
+        ],
+        "text": "Private Car"
+      },
+      {
+        "intent": "Private_Car_Insurance",
+        "entities": [
+          {
+            "entity": "@sys.ignore",
+            "value": "Private Car",
+            "start": 0,
+            "end": 11
+          }
+        ],
+        "text": "Private Car Insurance"
+      },
+      {
+        "intent": "two_wheeler_insurance_q1",
+        "entities": [],
+        "text": "lost insurance"
+      },
+      {
+        "intent": "two_wheeler_insurance_q1",
+        "entities": [],
+        "text": "What to do in case of loss of insurance policy document"
+      },
+      {
+        "intent": "two_wheeler_insurance_q1",
+        "entities": [],
+        "text": "duplicate copy of policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q1",
+        "entities": [],
+        "text": "Do you provide duplicate copy of policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q1",
+        "entities": [],
+        "text": "I have lost the insurance policy for my vehicle. Can I get a duplicate?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q2",
+        "entities": [],
+        "text": "cancel policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q2",
+        "entities": [],
+        "text": "cancellation"
+      },
+      {
+        "intent": "two_wheeler_insurance_q2",
+        "entities": [],
+        "text": "should I cancel my policy midway?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q2",
+        "entities": [],
+        "text": "Can I cancel my policy midway?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q3",
+        "entities": [],
+        "text": "compulsory excess and voluntary excess"
+      },
+      {
+        "intent": "two_wheeler_insurance_q3",
+        "entities": [],
+        "text": "What is compulsory excess and voluntary excess in motor policy?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q4",
+        "entities": [],
+        "text": "NCB Transfer"
+      },
+      {
+        "intent": "two_wheeler_insurance_q4",
+        "entities": [],
+        "text": "Transfer NCB"
+      },
+      {
+        "intent": "two_wheeler_insurance_q4",
+        "entities": [],
+        "text": "Is my No Claim Bonus transferable to another -insurer?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q5",
+        "entities": [],
+        "text": "premium payable for my vehicle"
+      },
+      {
+        "intent": "two_wheeler_insurance_q5",
+        "entities": [],
+        "text": "How do I know the premium payable for my vehicle?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q6",
+        "entities": [],
+        "text": "i want to renew policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q6",
+        "entities": [],
+        "text": "Renew my Policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q6",
+        "entities": [],
+        "text": "Renew Policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q6",
+        "entities": [],
+        "text": "Where can I renew my policy?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "what can i do if my policy is expired"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "expire policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "Expired policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "policy expired"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "policy expire"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "previous policy has expired"
+      },
+      {
+        "intent": "two_wheeler_insurance_q7",
+        "entities": [],
+        "text": "What if my previous policy has already expired?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q8",
+        "entities": [],
+        "text": "replace vehicle for existing policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q8",
+        "entities": [],
+        "text": "replace a new vehicle in my existing policy"
+      },
+      {
+        "intent": "two_wheeler_insurance_q8",
+        "entities": [],
+        "text": "Can I replace a new vehicle in my existing policy?"
+      },
+      {
+        "intent": "two_wheeler_insurance_q9",
+        "entities": [],
+        "text": "if i wish to sold my vehicle"
+      },
+      {
+        "intent": "two_wheeler_insurance_q9",
+        "entities": [],
+        "text": "sold vehicle"
+      },
+      {
+        "intent": "two_wheeler_insurance_q9",
+        "entities": [],
+        "text": "i want to sold my vehicle"
+      },
+      {
+        "intent": "two_wheeler_insurance_q9",
+        "entities": [],
+        "text": "my vehicle is sold"
+      },
+      {
+        "intent": "two_wheeler_insurance_q9",
+        "entities": [],
+        "text": "What should I do when vehicle is sold ?"
+      },
+      {
+        "intent": "Two_Wheeler_Insurance",
+        "entities": [],
+        "text": "Two Wheeler Insurance"
+      },
+      {
+        "intent": "What can you do?",
+        "entities": [],
+        "text": "things you can do for me"
+      },
+      {
+        "intent": "What can you do?",
+        "entities": [],
+        "text": "can you help me"
+      },
+      {
+        "intent": "What can you do?",
+        "entities": [],
+        "text": "what can you do for me"
+      },
+      {
+        "intent": "What can you do?",
+        "entities": [],
+        "text": "what can you do"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "Private Car",
+        "synonyms": [
+          "car"
+        ]
+      },
+      {
+        "value": "Motor Cycle",
+        "synonyms": [
+          "motor",
+          "motorcycle"
+        ]
+      },
+      {
+        "value": "General",
+        "synonyms": [
+          "general"
+        ]
+      }
+    ]
+  }
+}

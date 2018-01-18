@@ -1,0 +1,28 @@
+{
+  "id": "beef0c71-eb31-42f1-b9df-b4d304e2434e",
+  "name": "private_car_insurance_q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can contact any of our branch office for more details on competitive premium quote with best of the coverage possible. It is advisable to fill the proposal form completely furnishing all the required information before asking for a quote to get the best deal considering all the good features of your proposal."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514874619,
+  "fallbackIntent": false,
+  "events": []
+}

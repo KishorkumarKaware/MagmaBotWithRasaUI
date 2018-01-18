@@ -1,0 +1,28 @@
+{
+  "id": "2a5a64c8-a679-451f-b7ba-3ff064fca83f",
+  "name": "general_insurance_q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is very important to have adequate amount of coverage for each insurance policy. For any asset or property insurance, the value of the asset based on market value or reinstatement value should be taken into consideration before deciding Sum Insured. If the Sum Insured is not adequate, the percentage representing the uncovered portion of the asset is to be borne by the insured."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871234,
+  "fallbackIntent": false,
+  "events": []
+}

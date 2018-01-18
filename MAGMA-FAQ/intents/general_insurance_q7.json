@@ -1,0 +1,28 @@
+{
+  "id": "829af0cb-0752-4a3b-9710-60fc959e96fd",
+  "name": "general_insurance_q7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You should fill up the proposal form because insurance is a contract between the insured and the insurer. The proposal form is the basis of contract and it contains all the required information for the preparation of the policy. which is a contract document."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871463,
+  "fallbackIntent": false,
+  "events": []
+}

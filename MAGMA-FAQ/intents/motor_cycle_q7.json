@@ -1,0 +1,28 @@
+{
+  "id": "5d81ed28-c16a-48bf-a62a-42872b5bbce7",
+  "name": "motor_cycle_q7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes - In case of approved Garage\u003cbr\u003e\nNo - In case of any other Garage"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514870068,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e645e43f-074c-4e69-9733-063ce82968e9",
+  "name": "two_wheeler_insurance_q7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We need to inspect the vehicle before issuance of a fresh policy. For this you need to contact our branch office or you can call our toll free number for further assistance."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514873084,
+  "fallbackIntent": false,
+  "events": []
+}

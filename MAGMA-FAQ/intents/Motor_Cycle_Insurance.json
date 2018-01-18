@@ -1,0 +1,28 @@
+{
+  "id": "ff1f0218-ef71-4b8d-8d48-107ca408e052",
+  "name": "Motor_Cycle_Insurance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Glad to assist you. For Motor Cycle Insurance, Please select a quick link below or type your query in the space provided.\n\n\u003cbr\u003e\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"pilicies_for_vehicles\" value\u003d\"Plocies For Vehicles\" onclick\u003d\"button_send(\u0027Policies for vehicles\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"is_insurance_mandatory\" value\u003d\"Is Insurance Mandatory\" onclick\u003d\"button_send(\u0027Is Insurance Mandatory\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"motor_package_policy_cover\" value\u003d\"Motor Package Policy\" onclick\u003d\"button_send(\u0027Motor Package Policy\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"required_documents\" value\u003d\"Required Documents\" onclick\u003d\"button_send(\u0027Required Documents\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"solatium_fund\" value\u003d\"Solatium Fund Scheme\" onclick\u003d\"button_send(\u0027Solatium Fund Scheme\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"exclusions\" value\u003d\"Exclusions\" onclick\u003d\"button_send(\u0027Exclusions\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"amount\" value\u003d\"Amount You have to bear\" onclick\u003d\"button_send(\u0027Amount you have to bear\u0027);\"/\u003e\n\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"no_claim_bonus\" value\u003d\"NCB\" onclick\u003d\"button_send(\u0027NCB\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"repairer_amount\" value\u003d\"Pay Amount to Repairer?\" onclick\u003d\"button_send(\u0027Pay Amount to Repairer?\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"liability\" value\u003d\"Liability Only Policy\" onclick\u003d\"button_send(\u0027Liability Only Policy\u0027);\"/\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1516001848,
+  "fallbackIntent": false,
+  "events": []
+}

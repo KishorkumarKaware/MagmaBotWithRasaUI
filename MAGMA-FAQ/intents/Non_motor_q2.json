@@ -1,0 +1,28 @@
+{
+  "id": "43a3fe6e-ea7f-43ce-b5fe-2eec0205dcec",
+  "name": "Non_motor_q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If the injuries are minor in nature immediately take them to the hospital and intimate the claim to the MHDI and the nearest Police about the incident."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876106,
+  "fallbackIntent": false,
+  "events": []
+}

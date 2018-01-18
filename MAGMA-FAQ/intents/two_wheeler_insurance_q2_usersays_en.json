@@ -1,0 +1,47 @@
+[
+  {
+    "id": "4a4d315c-2961-4c3d-a6f2-beb122b05908",
+    "data": [
+      {
+        "text": "cancel policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5aca5877-3d0b-476d-a389-1cb98c14f6c4",
+    "data": [
+      {
+        "text": "cancellation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "52d04f20-c40d-461c-8efd-68166f587f94",
+    "data": [
+      {
+        "text": "should I cancel my policy midway?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6d9df508-77e1-4717-a63f-9b37aa6e31f0",
+    "data": [
+      {
+        "text": "Can I cancel my policy midway?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514872407
+  }
+]

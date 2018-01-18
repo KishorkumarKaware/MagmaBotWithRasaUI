@@ -1,0 +1,28 @@
+{
+  "id": "c443bf4f-5927-4b5a-a9b4-a8f500940250",
+  "name": "Non_motor_q6",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Documents shall be submitted to the surveyor during the survey or directly to the Insurance Company."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876639,
+  "fallbackIntent": false,
+  "events": []
+}

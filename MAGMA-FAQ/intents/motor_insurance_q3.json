@@ -1,0 +1,28 @@
+{
+  "id": "f0a4cc10-70a2-4a91-b8f5-12d4e07e077c",
+  "name": "motor_insurance_q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Owners\u0027 liability towards Third Party Personal Injury and Property Damage."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514869587,
+  "fallbackIntent": false,
+  "events": []
+}

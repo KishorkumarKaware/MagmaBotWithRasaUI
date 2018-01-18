@@ -1,0 +1,28 @@
+{
+  "id": "0d2299cf-5aaa-4399-a4bf-6fb62243feed",
+  "name": "general_Insurance_q1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Insurance is a hedge against the occurrence of unforeseen incidents. Insurance products help you in not only mitigating risks but also helps you by providing a financial cushion against adverse financial burdens suffered."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871138,
+  "fallbackIntent": false,
+  "events": []
+}

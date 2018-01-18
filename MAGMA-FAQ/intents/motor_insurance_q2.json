@@ -1,0 +1,28 @@
+{
+  "id": "b2f57fe3-e8ef-4a6e-a883-e3d5baa2fed2",
+  "name": "motor_insurance_q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As per Motor Vehicle Act, it is mandatory to have Motor Liability Only Policy for covering Third Party."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514869440,
+  "fallbackIntent": false,
+  "events": []
+}

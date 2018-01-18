@@ -1,0 +1,28 @@
+{
+  "id": "fa3020d2-0ecd-4286-bc00-4087578892b1",
+  "name": "Non_Motor_Insurance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Glad to assist you. For Non-Motor Insurance, Please select a quick link below or type your query in the space provided.\n\n\u003cbr\u003e \n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"property_damage\" value\u003d\"Property Damage\" onclick\u003d\"button_send(\u0027 Property Damage\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"injury\" value\u003d\"If third party injured in accident\" onclick\u003d\"button_send(\u0027If third party injured in accident\u0027);\"/\u003e\n\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"burglary_process\" value\u003d\"Burglary Process\" onclick\u003d\"button_send(\u0027Burglary Process\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"claim_to_mhdi\" value\u003d\"Intimate Claim to MHDI\" onclick\u003d\"button_send(\u0027Intimate a claim to MHDI?\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"required_docs\" value\u003d\"Required Documents\" onclick\u003d\"button_send(\u0027Required Documents for Non-Motor Insurance\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"document_submission\" value\u003d\"Document Submission\" onclick\u003d\"button_send(\u0027 Document Submission\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"attend_survey\" value\u003d\"Attend the survey\" onclick\u003d\"button_send(\u0027Attend the survey\u0027);\"/\u003e\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"surveyor_time\" value\u003d\"Surveyor\u0027s Expected Time\" onclick\u003d\"button_send(\u0027Surveyor\u0027s Expected Time\u0027);\"/\u003e\n\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"assessment\" value\u003d\"Assessment\" onclick\u003d\"button_send(\u0027Assessment\u0027);\"/\u003e\n\n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"payment_time\" value\u003d\"Expected Payment Time\" onclick\u003d\"button_send(\u0027Expected Payment Time\u0027);\"/\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1516013658,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "42703d48-6581-4d22-b5d7-5ddbe4634654",
+  "name": "motor_cycle_q8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Compulsory excess, reasonable value of salvage if not surrendered to insurer and depreciation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514870111,
+  "fallbackIntent": false,
+  "events": []
+}

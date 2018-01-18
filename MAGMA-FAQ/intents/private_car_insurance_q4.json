@@ -1,0 +1,28 @@
+{
+  "id": "087be2a3-366a-48c2-966f-85fc526655cd",
+  "name": "private_car_insurance_q4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In India, it is compulsory to insure all vehicles at least for third party liability risks that covers motor vehicle owners against all legal liability for bodily injury or death or property damage to any third party due to any accident involving motor vehicle in a public place. Motor vehicle is a valuable asset you own which also needs protection in case of accidents, damage or theft."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1515136010,
+  "fallbackIntent": false,
+  "events": []
+}

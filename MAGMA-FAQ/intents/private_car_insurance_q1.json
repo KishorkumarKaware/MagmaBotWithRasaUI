@@ -1,0 +1,28 @@
+{
+  "id": "37d2fb4d-98b8-473d-b84e-b844662087bc",
+  "name": "private_car_insurance_q1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, you can transfer your eligible NCB to new insurer."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514874559,
+  "fallbackIntent": false,
+  "events": []
+}

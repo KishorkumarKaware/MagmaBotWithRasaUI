@@ -1,0 +1,58 @@
+[
+  {
+    "id": "eca46003-060d-41ff-9757-9d967bd4cb6f",
+    "data": [
+      {
+        "text": "if i wish to sold my vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3b251800-cd14-4443-bb1a-1f4b6cbea93b",
+    "data": [
+      {
+        "text": "sold vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a98e2b08-7c40-4bb0-871f-b9d601d04d1e",
+    "data": [
+      {
+        "text": "i want to sold my vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "748f9064-2bf0-4dc9-8c29-47fef797ab9f",
+    "data": [
+      {
+        "text": "my vehicle is sold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1077896e-aa37-42f2-9351-2379b5a6c969",
+    "data": [
+      {
+        "text": "What should I do when vehicle is sold ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514873175
+  }
+]

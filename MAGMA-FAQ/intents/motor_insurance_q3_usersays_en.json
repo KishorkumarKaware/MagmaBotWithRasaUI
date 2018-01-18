@@ -1,0 +1,25 @@
+[
+  {
+    "id": "8bdac03b-0fa1-4e4a-8d4f-65ae31fcb874",
+    "data": [
+      {
+        "text": "liability only policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "21fc5956-06a9-4e9d-9b63-90f56972cb25",
+    "data": [
+      {
+        "text": "What is covered under Liability Only Policy?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514869587
+  }
+]

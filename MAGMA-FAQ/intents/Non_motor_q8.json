@@ -1,0 +1,28 @@
+{
+  "id": "4f7e6e99-c853-4cad-8fcd-06f3431e810d",
+  "name": "Non_motor_q8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Surveyor will attend to the claim within 24 hours in the city limits and 48 hours in the other locations based on the actual distance to be travelled."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876735,
+  "fallbackIntent": false,
+  "events": []
+}

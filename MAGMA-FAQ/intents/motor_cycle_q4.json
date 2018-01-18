@@ -1,0 +1,28 @@
+{
+  "id": "5f2886b9-6997-4233-aae4-bcd3a01ab850",
+  "name": "motor_cycle_q4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This type of policy covers all the risks covered under Motor Liability policy plus loss or damage caused to the vehicle due to: Accident, Fire, Explosion, Self ignition, Lightning, Burglary, House Breaking, Theft, Riots \u0026 Strikes, Earthquakes, Flood, Typhoon, Hurricane, Storm, Cyclones, Malicious Acts, Terrorism, Transit by rail/road, air and waterways and also include towing charges."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514869922,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "f867079e-ff7f-4045-9575-8dd4dce5e0cf",
+    "data": [
+      {
+        "text": "Pay amount to repairer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4f690f9c-77b6-43d7-93e7-1056f6d4c9cb",
+    "data": [
+      {
+        "text": "Can the amount be paid directly to the repairer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514870068
+  }
+]

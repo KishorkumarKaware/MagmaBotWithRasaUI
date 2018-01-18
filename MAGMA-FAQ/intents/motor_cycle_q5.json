@@ -1,0 +1,28 @@
+{
+  "id": "010658a5-0ea0-4208-8f6e-be8f13fd1a61",
+  "name": "motor_cycle_q5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Damage caused due to: Driver being under intoxication, Vehicle being driven by a person not holding an effective valid license, Damage to tyres (unless the vehicle is damaged at the same time), wear and tear and mechanical breakdown damages."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514869962,
+  "fallbackIntent": false,
+  "events": []
+}

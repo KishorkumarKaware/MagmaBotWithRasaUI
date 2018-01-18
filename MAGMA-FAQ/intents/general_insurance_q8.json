@@ -1,0 +1,28 @@
+{
+  "id": "dfb22c76-b2aa-4f16-aedd-4fda08e0cc0d",
+  "name": "general_insurance_q8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is the consideration of material fact to assess the risk and to take the decision whether to accept the risk for insurance contract and if so at what rate of premium."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871508,
+  "fallbackIntent": false,
+  "events": []
+}

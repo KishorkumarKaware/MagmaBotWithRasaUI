@@ -1,0 +1,58 @@
+[
+  {
+    "id": "4d94c8af-e339-4439-9254-328beeaa23ba",
+    "data": [
+      {
+        "text": "lost insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fd982865-b1fe-4372-a20b-69f800f5444e",
+    "data": [
+      {
+        "text": "What to do in case of loss of insurance policy document",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9be81bb9-3455-4ca6-8621-3a47827036e5",
+    "data": [
+      {
+        "text": "duplicate copy of policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "dd984752-147f-42de-b6a7-472119ca6b65",
+    "data": [
+      {
+        "text": "Do you provide duplicate copy of policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3af03da5-270d-4a5a-adc6-db94535f679f",
+    "data": [
+      {
+        "text": "I have lost the insurance policy for my vehicle. Can I get a duplicate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514872349
+  }
+]

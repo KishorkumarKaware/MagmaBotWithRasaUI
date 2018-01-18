@@ -1,0 +1,28 @@
+{
+  "id": "f7d1badd-bb35-4db1-9e73-bcea3ad31bf1",
+  "name": "motor_cycle_q10",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Solatium Fund scheme is the Scheme formed by the Central Govt. to provide compensation to the victims of \"Hit and Run\" motor accident. The amount of compensation is Rs. 25,000/- in the event of death and Rs. 12,500/- for grievous hurt."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514870198,
+  "fallbackIntent": false,
+  "events": []
+}

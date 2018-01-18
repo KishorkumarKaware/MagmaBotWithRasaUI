@@ -1,0 +1,36 @@
+{
+  "id": "b4d70105-bf8c-4450-a497-633bc6e9dd82",
+  "name": "motor_Insurance_types_Of_policies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bf3b4fe0-fee0-41fe-983a-5161d81b08b0",
+          "dataType": "@insurance",
+          "name": "insurance",
+          "value": "$insurance",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are two types of Motor Insurance Policies available and they are, (i) Liability Only Policy - Covers legal liability for bodily injury or death or property damage caused to any third party due to any accident. (ii) Package Policy - Covers loss or damage to the insured vehicle in addition to -third party risks mentioned above."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514869320,
+  "fallbackIntent": false,
+  "events": []
+}

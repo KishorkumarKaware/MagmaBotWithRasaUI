@@ -1,0 +1,28 @@
+{
+  "id": "c6d2c0c8-2d96-420a-ba02-faad8d89d2c5",
+  "name": "two_wheeler_insurance_q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "This policy can be cancelled midway only after ensuring that the vehicle is insured at least for liability risks"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514872407,
+  "fallbackIntent": false,
+  "events": []
+}

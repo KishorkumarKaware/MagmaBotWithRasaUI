@@ -1,0 +1,28 @@
+{
+  "id": "91ce981f-0baf-4896-8e55-1f92250adf68",
+  "name": "general_insurance_q10",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is an arrangement by which insurance companies spread their risk with other underwriters or reinsurance companies."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871613,
+  "fallbackIntent": false,
+  "events": []
+}

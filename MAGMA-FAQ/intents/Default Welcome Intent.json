@@ -1,0 +1,34 @@
+{
+  "id": "21bf246d-7209-4c2f-919e-51eee5685117",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hello! I am your MAGMA Insurance Virtual Assistant.Please select a quick link below or type your query in the space provided.\n\n\u003cbr\u003e\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"general_insurance\" value\u003d\"General Insurance\" onclick\u003d\"button_send(\u0027General Insurance\u0027);\"/\u003e\n\u003cbr\u003e\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"motor_cycle_insurance\" value\u003d\"Motor Cycle Insurance\" onclick\u003d\"button_send(\u0027Motor Cycle Insurance\u0027);\"/\u003e\n\u003cbr\u003e\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"non_motor_insurance\" value\u003d\"Non-motor Insurance\" onclick\u003d\"button_send(\u0027Non-motor Insurance\u0027);\"/\u003e\n \u003cbr\u003e\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"two_wheeler_insurance\" value\u003d\"Two Wheeler Insurance\" onclick\u003d\"button_send(\u0027Two Wheeler Insurance\u0027);\"/\u003e\n\u003cbr\u003e\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"private_car_insurance\" value\u003d\"Private Car Insurance\" onclick\u003d\"button_send(\u0027Private Car Insurance\u0027);\"/\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2e236175-364e-4f0c-ad97-310236eb0526",
+  "name": "motor_cycle_q6",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Following are the required documents :\n\u003cbr\u003e\u003cbr\u003e\n1. Copy of claim intimation given to insurer with Xerox copy of policy and premium receipt,\u003cbr\u003e \n2. duly filled Claim Form, \u003cbr\u003e\n3. Driving License, \u003cbr\u003e\n4. Registration Certificate of Vehicle, \u003cbr\u003e\n5. Estimate of repairs from repairer and stamped receipt, \u003cbr\u003e\n6. Bills and Cash Memo of repairs, \u003cbr\u003e\n7. verification of road tax, \u003cbr\u003e\n8. Police Panchanama/FIR, \u003cbr\u003e\n9. Permit and Fitness Certificate \u003cbr\u003e\n10. And any other documents deemed fit for the situation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514870012,
+  "fallbackIntent": false,
+  "events": []
+}

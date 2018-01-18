@@ -1,0 +1,28 @@
+{
+  "id": "ef8b7ee1-05ba-4545-ba23-7c2cb33eb5cf",
+  "name": "private_car_insurance_q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If the CNG/LPG kit is manufacturer fitted or when you install one from a third party vendor you need to inform us at the time of taking the policy or before or immediately after installation of such a kit for the continuation of benefits under the policy."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514874839,
+  "fallbackIntent": false,
+  "events": []
+}

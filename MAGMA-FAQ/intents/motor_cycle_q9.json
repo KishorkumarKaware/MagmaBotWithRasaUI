@@ -1,0 +1,28 @@
+{
+  "id": "78313bc1-b380-4968-a590-5b6ad408cf55",
+  "name": "motor_cycle_q9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sure. Here is the information you are looking for. \nNo Claim Bonus(NCB) is a special discount given on premium for every claim-free year."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514870156,
+  "fallbackIntent": false,
+  "events": []
+}

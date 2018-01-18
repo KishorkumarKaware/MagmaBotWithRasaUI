@@ -1,0 +1,25 @@
+[
+  {
+    "id": "f5a2c855-adcf-433d-b86d-19c66e1bef5c",
+    "data": [
+      {
+        "text": "Assessment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bd72ea7e-b944-4031-8196-97da211667ee",
+    "data": [
+      {
+        "text": "When can we hear from Insurance Company about our assessment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514876774
+  }
+]

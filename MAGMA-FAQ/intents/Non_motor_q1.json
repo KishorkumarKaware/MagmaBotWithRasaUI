@@ -1,0 +1,28 @@
+{
+  "id": "e4daeab2-1b3c-47ec-909c-a01f4c5669cf",
+  "name": "Non_motor_q1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are the things you should do in case of  an accident/loss due to fire/flood/inundation to your property :\u003cbr\u003e\u003cbr\u003e\n\n1. Please safeguard the property from further loss\u003cbr\u003e\n\n2. Minimize the loss with firefighting operations\u003cbr\u003e\n\n3. Separate the sound material from the damaged and shift to a safe location\u003cbr\u003e\n\n4. Immediately intimate to the Fire Brigade/Police for help\u003cbr\u003e\n\n5. Inform the Insurance Company immediately to reach you"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876050,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4a4a2d35-7412-43fd-9e85-77355d5335e6",
+  "name": "general_insurance_q9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The amount, which the insured has to bear in all cases and this amount, is first deducted from the total assessed payable claims amount before determining the insurance company\u0027s liability."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871577,
+  "fallbackIntent": false,
+  "events": []
+}

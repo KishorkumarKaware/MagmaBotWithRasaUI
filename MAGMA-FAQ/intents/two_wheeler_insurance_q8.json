@@ -1,0 +1,28 @@
+{
+  "id": "123bf43a-d95b-41c3-9fc3-1c7911883dd6",
+  "name": "two_wheeler_insurance_q8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, you can replace your new vehicle in - your existing policy - In such a case, please -call our toll free number for further assistance or you may visit our nearest branch office."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514873132,
+  "fallbackIntent": false,
+  "events": []
+}

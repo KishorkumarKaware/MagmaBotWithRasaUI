@@ -1,0 +1,28 @@
+{
+  "id": "e29cb965-2bb2-4615-b607-e311934660c0",
+  "name": "two_wheeler_insurance_q4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, you can transfer your eligible NCB to new insurer."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514872669,
+  "fallbackIntent": false,
+  "events": []
+}

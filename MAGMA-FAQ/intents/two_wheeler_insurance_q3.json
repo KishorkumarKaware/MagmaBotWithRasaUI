@@ -1,0 +1,28 @@
+{
+  "id": "ec5afaf3-cc36-456a-ac6a-63a57a184ed7",
+  "name": "two_wheeler_insurance_q3",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "All Policies carry compulsory excess amount, which is deducted from the claim amount payable. Voluntary excess is over and above the compulsory excess amount opted by the Insured to avail discount in premium. When one opts for voluntary excess, the amount opted -will be deducted from the claim amount payable."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514872459,
+  "fallbackIntent": false,
+  "events": []
+}

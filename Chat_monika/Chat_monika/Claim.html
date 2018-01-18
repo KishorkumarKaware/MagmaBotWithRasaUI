@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>AutomationEdge ChatBot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <style>
+        /* for chat UI */
+
+        .floating-action {
+            bottom: 0;
+            position: fixed;
+            margin: 1em;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .btn.btn-fab {
+            padding: 16px;
+            border-radius: 50%;
+        }
+
+        .floating-btn {
+            background: #de6d11 none repeat scroll 0 0;
+            bottom: 24px;
+            color: #fff;
+            position: fixed;
+            right: 24px;
+            z-index: 1000;
+        }
+
+        .btn-fab {
+            width: 56px;
+            height: 56px;
+            min-width: 56px;
+        }
+
+        .btn-raised {
+            box-shadow: 0 5px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+        }
+
+        #chat-window {
+            background: #FFFFFF;
+            height: 500px;
+            width: 300px;
+            margin: 36px 36px;
+            border-radius: 26px;
+            display: none;
+            box-shadow: 0 5px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+            font: 12px;
+        }
+
+        .input-chat {
+            box-shadow: 0px -8px 20px -10px #ddd;
+            width: 81%;
+            position: absolute;
+            bottom: 0;
+            height: 70px;
+            margin-bottom: 30px;
+            display: flex;
+            border-top: 1px solid #ddd;
+        }
+
+        .outer-container {
+            width: 90%;
+            height: 65px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 25px;
+        }
+
+        .inner-container {
+            border: none;
+            width: 100%;
+            resize: none;
+            outline: none;
+            height: 70px;
+            font-size: small;
+            position: absolute;
+            left: 0;
+            overflow-x: scroll;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+
+        .inner-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .chat-header {
+            height: 40px;
+            border-radius: 26px 26px 0px 0px;
+            background: #de6d11;
+            margin-top: 36px;
+            width: 100%;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .chat-container {
+            overflow: auto;
+            height: 390px;
+            width: 100%;
+            position: relative;
+            background: beige;
+            /* background:url('wallpaper-chatbot.jpg'); */
+        }
+
+        .chat-container::-webkit-scrollbar {
+            display: none;
+            width: 8px;
+        }
+        /* ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        } */
+
+        .msg-text-robot {
+            height: fit-content;
+            border-radius: 8px 8px 8px 8px;
+            background: rgba(102, 100, 100, 0.5);
+            color: #fff;
+            padding: 5px 10px;
+            font-size: small;
+            box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-right: 5px solid rgba(26, 26, 26, 0.50);
+            top: 7%;
+            position: relative;
+            border-width: 5px;
+            margin-top: 5%;
+        }
+
+        .msg-text-sent {
+            height: fit-content;
+            border-radius: 8px 8px 8px 8px;
+            background: rgba(236, 164, 9, 0.5);
+            color: #480563;
+            padding: 5px 10px;
+            font-size: small;
+            box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .arrow-right {
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid rgba(236, 164, 9, 0.5);
+            top: 7%;
+            position: relative;
+            border-width: 5px;
+            margin-top: 5%;
+        }
+
+        .avatar {
+            background: #850909;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            color: white;
+            padding: 5px 10px;
+        }
+
+        .time-stamp {
+            font-size: xx-small;
+            color: #000;
+            margin: 5px;
+        }
+
+        .msg {
+            height: fit-content;
+            padding: 10px 10px 0px 10px;
+            display: flex;
+        }
+
+        .sent-msg {
+            flex-direction: row-reverse;
+        }
+
+        .msgbox-group {
+            display: flex;
+            margin-left: 5px;
+        }
+
+        #attachFile>input {
+            display: none !important;
+        }
+        .button {
+            background-color: #de6d11;
+            border: none;
+            color: white;
+			border-radius: 10px 10px 10px 10px;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+    </style>
+    <script>
+        
+        $(document).ready(function () {
+
+            var bIconDisplay = true;
+            $('#collapse').css('display', 'none');
+            $('#msg').css('display', 'block');
+
+            $('#input-msg').val('');
+
+            $("a[href='#chat-window']").click(function () {
+                $('#chat-window').toggle("slide");
+                if (bIconDisplay) {
+                    if ($('.chat-container').children('.msg').length == 0) {
+                        setTimeout(function () {
+                            initialMsg();
+                            
+                        }, 1000);
+                    }
+                    $('#collapse').css('display', 'block');
+                    $('#msg').css('display', 'none');
+                    bIconDisplay = false;
+                } else {
+                    $('#collapse').css('display', 'none');
+                    $('#msg').css('display', 'block');
+                    bIconDisplay = true;
+                }
+            });
+
+            $("#input-msg").keypress(function(event) {
+               //alert("enter event");
+               
+               if (event.which == 13) {
+                    event.preventDefault();
+                   
+                   if ($('#input-msg').val() != '') {
+                    $('.chat-container').append(`<div class="msg sent-msg">
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div>
+                                <div class="msg-text-sent">`
+                        + $('#input-msg').val() +
+                        `</div>
+                                <div class="time-stamp pull-right">`
+                        + getCurrentTime() +
+                        `</div>
+                            </div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </div>
+                </div>`);
+                    setTimeout(function () {
+                         send();
+                        //getMe ssage($('#input-msg').val());
+                        $('#input-msg').val('');
+                    }, 500);
+                }
+                }
+            });
+            $("#send-msg").click(function () {
+                //alert("Send event");
+                
+                if ($('#input-msg').val() != '') {
+                    $('.chat-container').append(`<div class="msg sent-msg">
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div>
+                                <div class="msg-text-sent">`
+                        + $('#input-msg').val() +
+                        `</div>
+                                <div class="time-stamp pull-right">`
+                        + getCurrentTime() +
+                        `</div>
+                            </div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </div>
+                </div>`);
+                    setTimeout(function () {
+                         send();
+                        //getMessage($('#input-msg').val());
+                        $('#input-msg').val('');
+                    }, 500);
+                }
+                
+                
+            });
+
+            
+
+            /*function getCurrentTime() {
+                var CurrentDate = new Date();
+                return CurrentDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+            }
+*/
+            function initialMsg() {
+                $('.chat-container').append(`<div class="msg">
+                    <div style="display:inline;">
+                        <div class="avatar">M</div>
+                    </div>
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div class="arrow-left"></div>
+                            <div>
+                                <div class="msg-text-robot">
+                                    Hello! I am your MAGMA Insurance Virtual Assistant. Please type your query or I can help you with the following options :
+                                 <br><input type="button" class="button" id="general_insurance" value="General Insurance" onclick="button_send('General Insurance');"/>
+                                <br><input type="button" class="button" id="motor_cycle_insurance" value="Motor Cycle Insurance" onclick="button_send('Motor Cycle Insurance');"/>
+                                <br><input type="button" class="button" id="non_motor_insurance" value="Non-motor Insurance" onclick="button_send('Non-motor Insurance');"/>
+                                <br><input type="button" class="button" id="two_wheeler_insurance" value="Two wheeler Insurance" onclick="button_send('Two wheeler Insurance');"/>
+                                 <br><input type="button" class="button" id="private_car_insurance" value="Private Car Insurance" onclick="button_send('Private Car Insurance');"/>
+                                </div>
+                                <div class="time-stamp pull-left">`
+                    + getCurrentTime() +
+                    `</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`);
+            }
+        })
+        
+        function getMessage(txt) {
+                $('.chat-container').append(`<div class="msg">
+                    <div style="display:inline;">
+                        <div class="avatar">S</div>
+                    </div>
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div class="arrow-left"></div>
+                            <div>
+                                <div class="msg-text-robot">`
+                    + txt +
+                    `</div>
+                                <div class="time-stamp pull-left">`
+                    + getCurrentTime() +
+                    `</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`);
+            }
+        
+        function getCurrentTime() {
+                var CurrentDate = new Date();
+                return CurrentDate.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+            }
+
+        //Access token And API.AI Post Call
+		
+         var accessToken = '9a494c43f7504d9c9ed1b78350615d57';  //Replace access token here
+        var baseUrl = "https://api.api.ai/v1/";
+        
+		
+        function button_send(buttonmsg)
+        {
+                $('.chat-container').append(`<div class="msg sent-msg">
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div>
+                                <div class="msg-text-sent">`
+                        + buttonmsg +
+                        `</div>
+                                <div class="time-stamp pull-right">`
+                        + getCurrentTime() +
+                        `</div>
+                            </div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </div>
+                </div>`);
+            
+                $.ajax({
+                type: "POST",
+                url: baseUrl + "query?v=20150910",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                headers: {
+                    "Authorization": "Bearer " + accessToken
+                },
+                data: JSON.stringify({ query: buttonmsg, lang: "en", sessionId: "somerandomthing" }),
+               //alert(data);
+                success: function(data) {
+                     //alert(JSON.stringify(data, undefined, 2));
+                    setResponse(JSON.stringify(data, undefined, 2));
+                },
+                error: function() {
+                    setResponse("Internal Server Error, Please check your internet connection");
+                }
+            });
+            $('#input').val("");             
+            //setResponse("Loading...");
+        }  
+        
+		
+		// Send Precess...
+        function send() {
+            var text = $("#input-msg").val();
+            
+            $.ajax({
+                type: "POST",
+                url: baseUrl + "query?v=20150910",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                headers: {
+                    "Authorization": "Bearer " + accessToken
+                },
+                data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
+               //alert(data);
+                success: function(data) {
+                    // alert(JSON.stringify(data, undefined, 2));
+                    setResponse(JSON.stringify(data, undefined, 2));
+                },
+                error: function() {
+                    setResponse("Internal Server Error, PLease check your Internet connection");
+                }
+            });
+            $('#input').val("");
+            
+             
+            //setResponse("Loading...");
+        }
+        
+		// Set the response in Chat Container.
+        function setResponse(val) {
+            $("#response").text(val);
+           // alert(val);
+            if(!(val == "Internal Server Error, PLease check your Internet connection"))
+            {
+                  speech = $.parseJSON(val);
+                  var repl = speech.result.fulfillment.speech;
+            }
+            //alert("'"+repl+"'");
+            if(val == "Internal Server Error, PLease check your Internet connection"){
+                $('.chat-container').append(`<div class="msg">
+                    <div style="display:inline;">
+                        <div class="</div>
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div class="arrow-left"></div>
+                            <div>
+                                <div class="msg-text-robot">`
+                    + val +
+                    `</div>
+                                <div class="time-stamp pull-left">`
+                    + getCurrentTime() +
+                    `</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`);
+                
+            }if(repl == "Hello! I am your MAGMA Insurance Virtual Assistant. I can help you with General Insurance, Motor Cycle Insurance, Non-motor Insurance, Two wheeler Insurance and Private Car Insurance. How may I help you today?"){
+			    $('.chat-container').append(`<div class="msg">
+                    <div style="display:inline;">
+                        <div class="avatar">S</div>
+                    </div>
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div class="arrow-left"></div>
+                            <div>
+                                <div class="msg-text-robot">
+                                    Hello! I am your MAGMA Insurance Virtual Assistant. Please type your query or I can help you with the following options :
+                                 <br><input type="button" class="button" id="general_insurance" value="General Insurance" onclick="button_send('General Insurance');"/>
+                                <br><input type="button" class="button" id="motor_cycle_insurance" value="Motor Cycle Insurance" onclick="button_send('Motor Cycle Insurance');"/>
+                                <br><input type="button" class="button" id="non_motor_insurance" value="Non-motor Insurance" onclick="button_send('Non-motor Insurance');"/>
+                                 <br><input type="button" class="button" id="private_car_insurance" value="Private Car Insurance" onclick="button_send('Private Car Insurance');"/>
+                                </div>
+                                <div class="time-stamp pull-left">`
+                    + getCurrentTime() +
+                    `</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`);
+			
+			}else{
+                
+                $('.chat-container').append(`<div class="msg">
+                    <div style="display:inline;">
+                        <div class="avatar">S</div>
+                    </div>
+                    <div style="display:inline;">
+                        <div class="msgbox-group">
+                            <div class="arrow-left"></div>
+                            <div>
+                                <div class="msg-text-robot">`
+                    + speech.result.fulfillment.speech +
+                `</div> <div class="time-stamp pull-left"> `
+                    + getCurrentTime() +
+                    `</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`);
+            }
+            
+              var d = document.getElementById("chatcontainer").lastElementChild.innerHTML;
+            // alert([d.slice(0, 24), " animated bounce", d.slice(24)].join(''));
+              document.getElementById("chatcontainer").lastElementChild.innerHTML = [d.slice(0, 24), " animated flipInX", d.slice(24)].join('');
+            var objDiv = document.getElementById("chatcontainer");
+            objDiv.scrollTop = objDiv.scrollHeight;
+        }
+    </script>
+</head>
+
+<body>
+    
+         <p>
+            FIRE INSURANCE CLAIMS:
+            <br>BASIC DOCUMENTS:
+            <br>1.Policy Copy
+            <br>2.Claim Form duly filled and signed by the insured
+            <br>3.Incident Report
+            <br>4.Estimate of loss
+            <br>5.Salvage quote
+            <br>6.Repair bills with payment receipts
+            <br>
+            <br>
+            <br>FIRE/EXPLOSION CLAIMS: ADDITIONAL DOCUMENTS:
+            <br>1.Police FIR
+            <br>2.Fire Brigade Report
+            <br>3.Lab test reports, if any
+            <br>4.Report from Inspector of factories
+            <br>5.Newspaper cuttings
+            <br>
+            <br>
+            <br>AOG PERILS: ADDITIONAL DOCUMENTS:
+            <br>1.Metrological Report
+            <br>2.Newspaper cuttings
+            <br>
+            <br>
+            <br>STRIKES/RIOTS/TERRORISM/MALICIOUS: ADDITIONAL DOCUMENTS
+            <br>1.Police FIR
+            <br>2.Newspaper cuttings
+            <br>
+            <br>
+            <br>DETERIRATION OF STOCKS: ADDITIONAL DOCUMENTS
+            <br>1.Stock Registers
+            <br>2.Electricity Board Certificate
+
+            <br>FIRE LOSS OF PROFITS (FLOP): BASIC DOCUMENTS
+            <br>1.Policy Copy
+            <br>2.Claim Form duly filled and signed by the insured
+            <br>3.Books of Accounts
+            <br>4.Activities carried out at other places
+            <br>5.Production Details
+            <br>6.Savings in Standing charges
+            <br>7.Increased cost details
+            <br>
+            <br>
+            <br>MARINE INSURANCE CLAIMS: BASIC DOCUMENTS:
+            <br>1.Insurance Policy copy
+            <br>2.Declaration/ Certificate of insurance
+            <br>3.Claim Form duly filled and signed
+            <br>4.Invoice
+            <br>5.Packing list
+            <br>6.Transport documents like BL/LR/Railway receipt/Airway bill/Postal receipt/Courier receipt etc.
+            <br>7.Damage certificate
+            <br>8.Monetary claim lodged on carriers/concerned
+            <br>9.Communication had with the transporter/carrier/concerned
+            <br>10.Subrogation letter
+            <br>11.Indemnity bond
+            <br>12.Anything specific towards the claim will be advised by the surveyor/Insurer based on the type and nature of claim.
+            <br>
+            <br>ENGINEERING INSURANCE CLAIMS:
+            <br>
+            <br>BASIC DOCUMENTS:
+            <br>1.Policy Copy
+            <br>2.Claim Form duly filled and signed by the insured
+            <br>3.Log Book
+            <br>4.Supervisor/Engineer remarks
+            <br>5.Supplier /Manufacturer's report on the cause of loss and findings.
+            <br>6.Estimate of loss
+            <br>7.Repair bills and payment receipts original
+            <br>8.Immediate photographs, if any
+            <br>
+            <br>
+            <br>CONTRACTOR'S ALL RISK POLICY:
+            <br>1.Policy copy
+            <br>2.Claim Form duly filled and signed by the insured
+            <br>3.Inventory of loss/Estimate of loss
+            <br>4.Books of Accounts
+            <br>5.Running bills towards the project completion
+            <br>6.Repair bills and payment receipts original
+            <br>7.Reinstatement certificate
+            <br>
+            <br>
+            <br>BOILER AND PRESSURE VESSEL INSURANCE:
+            <br>1.Policy copy
+            <br>2.Claim Form duly filled and signed by the insured
+            <br>3.Boilers inspector's report
+            <br>4.Estimate of loss
+<br>5.Details of third party claims
+<br>6.Repair bills and payment receipts original
+<br>
+<br>
+<br>ELECTRONICS EQUIPEMENT INSURANCE POLICY:
+<br>1.Policy Copy
+<br>2.Claim Form duly filled and signed by the insured
+<br>3.AMC
+<br>4.Supplier/Manufacturers report on the loss
+<br>5.Estimate of loss
+<br>6.Repair bills and payment receipts original
+<br>
+<br>
+<br>MACHINERY LOSS OF PROFITS: (MLOP)
+<br>1.Policy Copy
+<br>2.Claim Form duly filled and signed by the insured
+<br>v3.Books of Accounts
+<br>4.Details of standing charges
+<br>5.Production details
+<br>
+<br>
+<br>MISCELLANEOUS INSURANCE CLAIMS:
+<br>BURGLARY INSURANCE:
+<br>1.Policy copy
+<br>2.Claim Form duly filled and signed by the insured
+<br>3.Police FIR
+<br>4.Claim bill with supporting documents
+<br>5.Books of Accounts
+<br>6.Stock Registers
+<br>7.Subrogation and indemnity bond
+<br>
+<br>
+<br>ALL RISK INSURANCE POLICY:
+<br>1.Policy Copy
+<br>2.Claim Form duly filled and signed by the insured
+<br>3.AMC details
+<br>4.Invoice and present replacement value
+<br>5.Warranty/Guarantee details
+<br>6.Estimate of loss
+<br>7.Repair bills and payment receipts original
+<br>
+<br>
+<br>PERSONAL ACCIDENT INSURANCE:
+<br>1.Policy Copy
+<br>2.Claim Form duly filled and signed by the insured
+<br>3.Police FIR
+<br>4.Physician's attendance report
+<br>5.Hospital records
+<br>6.Leave certificate
+<br>7.Salary certificate
+<br>8.Disability certificate
+<br>9.Death certificate - for death cases
+<br>10.Post Mortem report - for death cases
+<br>
+<br>
+        </p>
+</body>
+
+</html>

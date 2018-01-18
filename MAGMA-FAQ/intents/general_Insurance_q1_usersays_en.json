@@ -1,0 +1,25 @@
+[
+  {
+    "id": "4fd3e71c-2797-4fac-b7f7-dc376ea189c3",
+    "data": [
+      {
+        "text": "insurance policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1ecd8857-cad2-4770-82d6-69f09df571c2",
+    "data": [
+      {
+        "text": "Why do I need Insurance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514871138
+  }
+]

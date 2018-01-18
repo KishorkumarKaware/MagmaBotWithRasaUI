@@ -1,0 +1,28 @@
+{
+  "id": "09d8035c-8cd5-4646-b937-e58172249ce1",
+  "name": "Non_motor_q7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is advisable to be present during the survey and give full cooperation in arranging the documents and information to him for speedy process of claim."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876688,
+  "fallbackIntent": false,
+  "events": []
+}

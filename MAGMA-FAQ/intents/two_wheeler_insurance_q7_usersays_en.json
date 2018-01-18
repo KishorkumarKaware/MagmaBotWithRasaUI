@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1386e5c6-9282-4d2c-bf9c-308b36b46dc5",
+    "data": [
+      {
+        "text": "what can i do if my policy is expired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f5a79873-d964-4b46-8c7f-a2fe9cc7e5cc",
+    "data": [
+      {
+        "text": "expire policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e4dab946-d31f-4372-b6e2-a4dca5a2e48b",
+    "data": [
+      {
+        "text": "Expired policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "55241b8d-c3c0-438f-b41e-82b96be44d30",
+    "data": [
+      {
+        "text": "policy expired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d53741f7-e858-472c-a513-8762864f5afc",
+    "data": [
+      {
+        "text": "policy expire",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c059d753-69df-42f0-b3a4-e6d813e91764",
+    "data": [
+      {
+        "text": "previous policy has expired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "73dea704-f499-4580-a660-7f6ddd71c7ed",
+    "data": [
+      {
+        "text": "What if my previous policy has already expired?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514873084
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "12e422c2-42c3-4066-ab5a-351143933d4e",
+  "name": "general_insurance_q5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Accidents and mishaps can occur anytime and anywhere. It is important to identify the risks faced and insure oneself against these at the earliest."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871381,
+  "fallbackIntent": false,
+  "events": []
+}

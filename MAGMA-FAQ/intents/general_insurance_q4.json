@@ -1,0 +1,28 @@
+{
+  "id": "ccf03741-e4d1-40c9-8a52-140fe68497cc",
+  "name": "general_insurance_q4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Almost everything that has a financial value in your life and has a probability of getting lost, stolen or damaged can be covered through insurance. Property (both movable and immovable), vehicle, cash, household goods, health, dishonesty and also your liability towards others can be covered."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871338,
+  "fallbackIntent": false,
+  "events": []
+}

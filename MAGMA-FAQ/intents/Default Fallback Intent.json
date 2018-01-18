@@ -1,0 +1,32 @@
+{
+  "id": "4a57edc5-0fc9-4213-828d-2d4c0fd1b329",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. Say it again?",
+            "If I am not able to answer your questions, maybe our Customer Care will be more helpful.You can call us on 1800-3002-3202 or please ask complete query  specific to \u0027customercare@magma-hdi.co.in\u0027 once again."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

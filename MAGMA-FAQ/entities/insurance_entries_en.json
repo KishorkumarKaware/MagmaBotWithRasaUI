@@ -1,0 +1,53 @@
+[
+  {
+    "value": "Two Wheeler",
+    "synonyms": [
+      "Two Wheeler"
+    ]
+  },
+  {
+    "value": "Private Car",
+    "synonyms": [
+      "Private Car",
+      "car"
+    ]
+  },
+  {
+    "value": "Motor Cycle",
+    "synonyms": [
+      "Motor Cycle",
+      "motor",
+      "motorcycle"
+    ]
+  },
+  {
+    "value": "Non Motor",
+    "synonyms": [
+      "Non Motor"
+    ]
+  },
+  {
+    "value": "Bike",
+    "synonyms": [
+      "Bike"
+    ]
+  },
+  {
+    "value": "Scooter",
+    "synonyms": [
+      "Scooter"
+    ]
+  },
+  {
+    "value": "Scooty",
+    "synonyms": [
+      "Scooty"
+    ]
+  },
+  {
+    "value": "General",
+    "synonyms": [
+      "general"
+    ]
+  }
+]

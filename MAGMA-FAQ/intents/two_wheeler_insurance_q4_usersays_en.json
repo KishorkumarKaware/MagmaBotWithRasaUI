@@ -1,0 +1,36 @@
+[
+  {
+    "id": "320ba638-3bd8-4bb2-96e4-35df8549194f",
+    "data": [
+      {
+        "text": "NCB Transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b147e710-e897-49db-9d94-f07f20c915e4",
+    "data": [
+      {
+        "text": "Transfer NCB",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c2723cac-7489-4619-82f6-6a8c026d1000",
+    "data": [
+      {
+        "text": "Is my No Claim Bonus transferable to another -insurer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514872669
+  }
+]

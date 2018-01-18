@@ -1,0 +1,25 @@
+[
+  {
+    "id": "3c287746-cd53-4179-9a3c-bffd9a04181d",
+    "data": [
+      {
+        "text": "premium payable for my vehicle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "fcdd66d7-86d4-4c1c-a9c6-2184b8401e4e",
+    "data": [
+      {
+        "text": "How do I know the premium payable for my vehicle?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514872897
+  }
+]

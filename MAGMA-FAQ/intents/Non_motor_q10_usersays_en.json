@@ -1,0 +1,36 @@
+[
+  {
+    "id": "2976fdbb-c10a-48a2-b566-8c4d20d35ffb",
+    "data": [
+      {
+        "text": "how much time will take for payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "225a6ba3-4dea-4b9f-8e74-466c58e3f7d0",
+    "data": [
+      {
+        "text": "Expected Payment Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "00927b68-1e3a-4991-88bd-75e0e685d597",
+    "data": [
+      {
+        "text": "How much time to make the payment?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514876821
+  }
+]

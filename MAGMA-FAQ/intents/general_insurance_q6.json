@@ -1,0 +1,28 @@
+{
+  "id": "1cff6955-b8af-4b9c-82c8-59520adee473",
+  "name": "general_insurance_q6",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Premium is the fixed amount of sum paid over the period by the insured to the insurance company to take insurance policy and to complete the contract of insurance."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871424,
+  "fallbackIntent": false,
+  "events": []
+}

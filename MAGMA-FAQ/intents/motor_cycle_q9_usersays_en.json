@@ -1,0 +1,36 @@
+[
+  {
+    "id": "88575e50-7950-470c-9919-e64f010b064e",
+    "data": [
+      {
+        "text": "is ncb available",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f25a4640-c68a-4e0d-9671-cc972d78c658",
+    "data": [
+      {
+        "text": "NCB",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4d1f397f-0907-44c8-999f-d8fb7a539040",
+    "data": [
+      {
+        "text": "What is \"No Claim Bonus\"?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514870156
+  }
+]

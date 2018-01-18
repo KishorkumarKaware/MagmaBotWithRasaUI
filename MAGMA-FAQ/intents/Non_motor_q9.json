@@ -1,0 +1,28 @@
+{
+  "id": "74628999-b0d3-4de7-b213-b6ae3fefd517",
+  "name": "Non_motor_q9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The Insurance Company will intimate the quantum of loss after processing the claim before making the payment."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876774,
+  "fallbackIntent": false,
+  "events": []
+}

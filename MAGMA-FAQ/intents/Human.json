@@ -1,0 +1,28 @@
+{
+  "id": "2bd41f00-6d29-456c-9c01-f4cbf39d5ebc",
+  "name": "Human",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am a smart Virtual Assistant. I can help you with any of the following : \u003cbr\u003e\n\n \u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"general_insurance\" value\u003d\"General Insurance\" onclick\u003d\"button_send(\u0027General Insurance\u0027);\"/\u003e \u003cbr\u003e\n\n \u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"motor_cycle_insurance\" value\u003d\"Motor Cycle Insurance\" onclick\u003d\"button_send(\u0027Motor Cycle Insurance\u0027);\"/\u003e \u003cbr\u003e \n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"non_motor_insurance\" value\u003d\"Non-motor Insurance\" onclick\u003d\"button_send(\u0027Non-motor Insurance\u0027);\"/\u003e \u003cbr\u003e\n\n \u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"two_wheeler_insurance\" value\u003d\"Two Wheeler Insurance\" onclick\u003d\"button_send(\u0027Two Wheeler Insurance\u0027);\"/\u003e \u003cbr\u003e \n\n\u003cinput type\u003d\"button\" class\u003d\"button\" id\u003d\"private_car_insurance\" value\u003d\"Private Car Insurance\" onclick\u003d\"button_send(\u0027Private Car Insurance\u0027);\"/\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1516020074,
+  "fallbackIntent": false,
+  "events": []
+}

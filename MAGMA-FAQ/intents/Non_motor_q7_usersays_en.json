@@ -1,0 +1,25 @@
+[
+  {
+    "id": "2e849375-3270-4e4d-b10c-b776cd60c5f2",
+    "data": [
+      {
+        "text": "attend the survey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8e916669-f177-4ccb-95c9-cb88b2b56aa1",
+    "data": [
+      {
+        "text": "Whether we need to be present during the survey?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514876688
+  }
+]

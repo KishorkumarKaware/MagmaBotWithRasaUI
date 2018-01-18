@@ -1,0 +1,48 @@
+[
+  {
+    "id": "565cf660-7def-4ee7-a02b-963b348cbe9f",
+    "data": [
+      {
+        "text": "things you can do for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "65b50bb3-f07b-4f84-a288-c77099c12677",
+    "data": [
+      {
+        "text": "can you help me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a719ac81-dea4-46c6-889a-eb5863abdae2",
+    "data": [
+      {
+        "text": "what can you do for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1515578362
+  },
+  {
+    "id": "f977f4da-70ac-4a88-b3aa-9d9c4dfb41af",
+    "data": [
+      {
+        "text": "what can you do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1515578362
+  }
+]

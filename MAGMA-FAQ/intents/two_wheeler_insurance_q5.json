@@ -1,0 +1,28 @@
+{
+  "id": "a366d055-5bc4-4d24-8e0c-5d96a9877b8f",
+  "name": "two_wheeler_insurance_q5",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can contact any of our branch office for more details on competitive premium quote with best of the coverage possible. It is advisable to fill the proposal form completely furnishing all the required information before asking for a quote to get the best deal considering all the good features of your proposal."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514872897,
+  "fallbackIntent": false,
+  "events": []
+}

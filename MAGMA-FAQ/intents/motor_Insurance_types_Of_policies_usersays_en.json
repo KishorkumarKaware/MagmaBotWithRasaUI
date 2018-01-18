@@ -1,0 +1,46 @@
+[
+  {
+    "id": "77d3ae78-7640-4c38-b27c-c31cfdbf37e9",
+    "data": [
+      {
+        "text": "What are the options for ",
+        "userDefined": false
+      },
+      {
+        "text": "two wheeler",
+        "alias": "insurance",
+        "meta": "@insurance",
+        "userDefined": true
+      },
+      {
+        "text": " insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "617dfd4d-0021-43e4-b3b6-09f52c58efbf",
+    "data": [
+      {
+        "text": "types of motor insurance policies.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a3cba3ec-9899-4c30-b013-3f58f2b350cc",
+    "data": [
+      {
+        "text": "policies available for covering the vehicles?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514869320
+  }
+]

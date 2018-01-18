@@ -1,0 +1,28 @@
+{
+  "id": "c44c63ed-2f6a-4c6f-a5e4-3ef2773c1fac",
+  "name": "two_wheeler_insurance_q9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You need to inform us immediately by visiting our nearest branch office or call our toll free number for further assistance."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514873175,
+  "fallbackIntent": false,
+  "events": []
+}

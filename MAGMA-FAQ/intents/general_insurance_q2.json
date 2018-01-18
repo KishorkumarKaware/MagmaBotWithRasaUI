@@ -1,0 +1,28 @@
+{
+  "id": "ce6aeb6e-9e65-403f-b9c1-7c80f4ab8d42",
+  "name": "general_insurance_q2",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Accidents... illness... fire... financial securities are the things you\u0027d like to worry about any time. General Insurance provides you the much-needed protection against such unforeseen events. Unlike Life Insurance, General Insurance is not meant to offer returns but is a protection against contingencies. Under certain Acts of the Parliament, some types of insurance like Motor Insurance and Public Liability Insurance have been made compulsory."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514871184,
+  "fallbackIntent": false,
+  "events": []
+}

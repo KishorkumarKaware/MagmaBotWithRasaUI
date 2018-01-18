@@ -1,0 +1,36 @@
+[
+  {
+    "id": "a99ef5a5-8f01-44fe-99e7-72fffb6eea01",
+    "data": [
+      {
+        "text": "exclusions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "58fbd9dc-455a-455f-8c38-d13fdaafa28c",
+    "data": [
+      {
+        "text": "exclusion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "09700617-e699-4d0e-a0da-e7601d61eae7",
+    "data": [
+      {
+        "text": "What are the exclusions under Package Policy?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1514869962
+  }
+]

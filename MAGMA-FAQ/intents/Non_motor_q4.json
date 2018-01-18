@@ -1,0 +1,28 @@
+{
+  "id": "dd1d8a6e-f0ba-4c84-93bb-e834286ca608",
+  "name": "Non_motor_q4",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The claim can be intimated on our Toll Free Number: XXXXXXXXXXXXXXXXXXX or an e-mail can be sent to XXXXXXXXXXXXXXXXXX\n\u003cbr\u003e\nPlease keep the following information ready before intimating a loss and give only genuine information. Any misrepresentation of the information leads to claim repudiation.\u003cbr\u003e\n1. Policy Number\u003cbr\u003e\n2. Insured Name and Contact Number\u003cbr\u003e\n3. Contact person name and number at the site\u003cbr\u003e\n4. Brief Description of the accident/loss\u003cbr\u003e\n5. Date and time of accident/loss\u003cbr\u003e\n6. Place of accident/loss\u003cbr\u003e\n7. Third party injury/death information\u003cbr\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1514876231,
+  "fallbackIntent": false,
+  "events": []
+}
